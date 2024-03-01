@@ -1,0 +1,62 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar 2</title>
+
+</head>
+<body>
+        <style>
+            .nav {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #ffffff;
+            }
+
+            .nav li {
+                float: left;
+            }
+
+            .nav li a {
+                display: block;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                border-bottom: 2px solid transparent; 
+            }
+
+            .nav li a:hover {
+                background-color: #00e5ff;
+                    width: 80px;
+                    height: 10px;
+                    background: rgb(2, 255, 213);
+                    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 20;
+              }
+              li::marker {
+                color: #2a2a2a;
+              }
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <ul>
+                <li><a href="#" class="home">Home</a></li>
+                <li><a href="#" class="products">Products</a></li>
+                <li><a href="#" class="company">Company</a></li>
+                <li><a href="#" class="contact">Contact</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
